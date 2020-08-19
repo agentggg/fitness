@@ -13,18 +13,20 @@
     <!--https://heights-demo.squarespace.com/?nochrome=true-->
   </head>
   <body>
-    <div class ="container-fluid section0">
-      <img src="section0background.jpg" class="img-fluid" alt="backgroundpic" id="pageimg">
+    <!-- I put this information in a header separate from the container section0 because it caused the links to take up 100vh as well, which made the links clickable down the entire hero image. I also did this to use flexbox for positioning. -->
+    <header>
       <a href="#" target="_blank"><h2 id="logo">Heights</h2></a>
-      <div class= "menubar" class="well" class="col-md-5">
-        <div class= "itemstyle">
+      <div class="menubar itemstyle" class="well" class="col-md-5">
           <a id='item1' href="https://google.com" target="_blank">Join</a>
           <a id='item2' href="https://google.com" target="_blank">About</a>
           <a id='item3' href="https://google.com" target="_blank">Classes</a>
           <a id='item4' href="https://google.com" target="_blank">Trainers</a>
           <a id='item5' href="https://google.com" target="_blank">Store</a>
-        </div>
       </div>
+      </header>
+
+      <!-- section0 is empty, but is holding the hero image in css (line 28ish) -->
+      <div class ="container-fluid section0"></div>
       <h1 id="header" > Heights Fitness & </br>Strength Training Studio</h1>
       <form class="headerbutton">
         <button id="headerbutton"><type="submit">Join Now</a></button>
