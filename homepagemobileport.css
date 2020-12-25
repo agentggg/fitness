@@ -1,0 +1,272 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 100vh;
+  left: 0;
+}
+div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section6 {
+  color: white;
+  background-color: white;
+}
+
+.section0 {
+  color: white;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+}
+#buttongroup{
+  left:-4%;
+}
+#dropb{
+  color: white;
+  width: 75vw;
+  height: 7vh;
+}
+#toggle{
+  width: 75vw;
+  height: 36.5vh;
+  background-color:white;
+  font-size: 5vw;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+a:active,
+a:visited,
+a:link,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+#pageimg {
+  position: absolute;
+  left: 0%;
+  height: 55vh;
+}
+#header {
+  position: absolute;
+  top: 25%;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 7vw;
+  color: white;
+}
+#headerbutton {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vw;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+}
+
+.section1 {
+  background-color: white;
+  color: black;
+}
+#subheader1 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 7vw;
+  text-align: center;
+}
+#subheader1paragraph {
+  font-size: 5vw;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.5em;
+  text-align: left;
+}
+.subheaderside {
+  display: grid;
+  grid-template-areas: "subheaderlist1 subheaderlist4" "subheaderlist1 subheaderlist4" "subheaderlist2 subheaderlist5" "subheaderlist3 subheaderlist6" "..... subheaderlist7";
+  grid-row: auto auto auto auto auto;
+  grid-column: auto auto;
+  list-style: none;
+  margin-top: 10%;
+  font-size: 4vw;
+  list-style: none;
+  line-height: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+#subheaderlist1 {
+  grid-area: subheaderlist1;
+  grid-row: 1/2;
+  margin-left: -5%;
+}
+#subheaderlist2 {
+  grid-area: subheaderlist2;
+  padding-top: 5%;
+  margin-left: -5%;
+}
+#subheaderlist3 {
+  grid-area: subheaderlist3;
+  margin-left: -5%;
+
+}
+#subheaderlist4 {
+  grid-area: subheaderlist4;
+  grid-row: 1/2;
+}
+#subheaderlist5 {
+  grid-area: subheaderlist5;
+  padding-top: 5%;
+}
+#subheaderlist6 {
+  grid-area: subheaderlist6;
+}
+#subheaderlist7 {
+  grid-area: subheaderlist7;
+}
+.index {
+  z-index: 10;
+}
+
+.section2 {
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 12%;
+  color: white;
+}
+#section2img {
+  max-height: 100vh;
+  width: 100vw;
+  height: 70vh;
+}
+#subheader2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6vw;
+  margin-left: 7%;
+  color: inherit;
+  margin-top: -45%;
+  letter-spacing: 10%;
+}
+#subheader2button {
+  position: absolute;
+  font-size: 3.8vw;
+  border-style: none;
+  color: #FF9900;
+  margin-left: 8%;
+  text-decoration: underline;
+  text-decoration-color: #FF9900;
+  text-transform: uppercase;
+}
+
+.section3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  margin-left: 7%;
+  margin-top: -30%;
+}
+#subheader3 {
+  font-size: 6vw;
+}
+
+.section4 {
+  max-width: 75%;
+  max-height: 100vh;
+  width: 75vw;
+  height: 100vh;
+  margin-top: 14%;
+  color: white;
+}
+#section4img {
+  max-width: 100vw;
+  max-height: 75vh;
+  height: 75vw;
+  width: 100vw;
+
+}
+#subheader4 {
+  padding-top: -40%;
+  padding-left: 7%;
+  font-size: 7vw;
+  margin-top: -40%;
+}
+#subheader4button {
+  position: absolute;
+  font-size: 4.2vw;
+  color: inherit;
+  color: #FF9900;
+  margin-left: 7%;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #FF9900;
+  text-transform: uppercase;
+}
+
+.subheader5button {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: -80%;
+  word-spacing: 15%;
+}
+#subheader5button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+}
+
+.subheadermenu {
+  display: grid;
+  grid-template-areas: "header header" "time1 day1" "time2 day2";
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.2vw;
+  grid-row-gap: 20%;
+  text-align: center;
+  align-content: start;
+  margin-top:  -7%;
+  margin-left: -28%;
+}
+#subheader5 {
+  grid-area: header;
+  grid-row: 1/2;
+  font-size: 4vw;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 0%;
+  text-align: left;
+  font-weight: bolder;
+  letter-spacing: 15px;
+}
+#time1 {
+  grid-area: time1;
+}
+#time2 {
+  grid-area: time2;
+}
+#day1 {
+  grid-area: day1;
+}
+#day2 {
+  grid-area: day2;
+}
+
+.footer {
+  display: grid;
+  grid-template-areas: "TC W";
+  margin-top: 20%;
+  margin-left: 20%;
+  max-width: 50%;
+  text-align: center;
+  margin-bottom: 10%;
+  font-size: 3.5vw;
+  font-family: 'Cormorant Garamond', serif;
+  border-style: none;
+}
+#TC {
+  grid-area: TC;
+}
+#W {
+  grid-area: W;
+}
